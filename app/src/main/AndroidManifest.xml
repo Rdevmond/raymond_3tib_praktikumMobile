@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Raymond_3TIB">
         <activity
-            android:name=".LoginActivity"
+            android:name=".SplashScreen"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -37,6 +37,10 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".pertemuan6.SixthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
