@@ -7,11 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".Home.pertemuan6.SixthActivity">
 
+    <View
+        android:id="@+id/background_header"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_header_wave2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="?attr/actionBarSize"
-        android:background="#0097A7"
         app:subtitleTextColor="@android:color/white"
         app:titleTextColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
