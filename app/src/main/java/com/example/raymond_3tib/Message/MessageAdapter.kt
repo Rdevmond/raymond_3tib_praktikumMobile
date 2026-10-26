@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import com.bumptech.glide.Glide
 import com.example.raymond_3tib.databinding.ItemMessageBinding
-import com.google.android.material.snackbar.Snackbarperte
 
 class MessageAdapter(
     context: Context,
