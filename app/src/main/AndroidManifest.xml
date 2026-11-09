@@ -57,5 +57,5 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
-
+<!--Testing-->
 </manifest>
