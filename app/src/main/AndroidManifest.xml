@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <!-- Testing -->
     <!-- testing -->
     <application
         android:allowBackup="true"
@@ -56,6 +56,10 @@
             android:name=".Message.TutorialMessageActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.pertemuan10.TenthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
-<!--Testing-->
+
 </manifest>

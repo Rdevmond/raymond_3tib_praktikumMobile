@@ -158,6 +158,17 @@
             app:layout_gravity="fill_horizontal"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnToSepuluh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0E1DA4"
+            android:text="Pertemuan 10"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.gridlayout.widget.GridLayout>
 
     <Button
