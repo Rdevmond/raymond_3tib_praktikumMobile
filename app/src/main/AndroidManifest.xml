@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- Testing -->
     <!-- testing -->
-    <!-- testing 11/16-->
+    <!-- testing 11/16 -->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -59,6 +60,10 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Home.pertemuan10.TenthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Note.NoteFormActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

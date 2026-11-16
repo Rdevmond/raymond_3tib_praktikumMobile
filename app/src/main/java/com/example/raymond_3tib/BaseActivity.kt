@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.example.raymond_3tib.Home.HomeFragment
 import com.example.raymond_3tib.Message.MessageFragment
 import com.example.raymond_3tib.More.MoreFragment
+import com.example.raymond_3tib.Note.NoteFragment
 import com.example.raymond_3tib.databinding.ActivityBaseBinding
 
 class BaseActivity : AppCompatActivity() {
@@ -39,6 +40,10 @@ class BaseActivity : AppCompatActivity() {
                 }
                 R.id.more -> {
                     replaceFragment(MoreFragment())
+                    true
+                }
+                R.id.note -> {
+                    replaceFragment(NoteFragment())
                     true
                 }
                 else -> false // false jika item tidak dikenal
